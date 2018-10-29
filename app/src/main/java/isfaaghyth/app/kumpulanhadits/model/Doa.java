@@ -28,4 +28,5 @@ public class Doa {
     public String getSurah() {
         return surah;
     }
+
 }
