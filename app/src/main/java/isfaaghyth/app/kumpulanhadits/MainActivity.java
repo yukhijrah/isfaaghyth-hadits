@@ -53,6 +53,8 @@ public class MainActivity extends AppCompatActivity implements DoaListener {
 
         Bundle kirimDoaBundle = new Bundle();
         kirimDoaBundle.putString("nama_doa", doa.getNama());
+        kirimDoaBundle.putString("surah_doa", doa.getSurah());
+        kirimDoaBundle.putString("arti_doa", doa.getArti());
 
         doaFragment.setArguments(kirimDoaBundle);
 

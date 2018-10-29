@@ -15,6 +15,6 @@ public class DetailActivity extends AppCompatActivity {
     @Override protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-        Toast.makeText(this, getIntent().getStringExtra("nama_doa"), Toast.LENGTH_LONG).show();
+
     }
 }
